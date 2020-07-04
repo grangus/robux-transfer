@@ -1,0 +1,12 @@
+[
+    {
+        "assetId": "",
+        "cookie": "",
+        "proxy": "",
+        "tasks": 100,
+        "wait": false,
+        "startTime": "40 * * * *",
+        "filename": "cookies.txt",
+        "debug": true
+    }
+]
