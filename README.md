@@ -2,7 +2,7 @@
  
 **A Big brains bot made to help you transfer Robux quickly while bypassing the asset price change ratelimit.**
 
-*To use this program, you will need to have* **Node.JS v13+** *installed on your machine!*
+*To use this program, you will need to have* ***Node.JS v13+*** *installed on your machine!*
 
 **Older versions of Node will not work/will have issues since worker threads are not stable until Node v13.**
 
