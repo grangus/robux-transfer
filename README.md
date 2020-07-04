@@ -37,7 +37,7 @@ This program allows you to supply multiple configuration objects inside of ``con
 
 I am not responsible for what you do with this program nor am I responsible for any losses you may incur while using this program.
 
-Should you encounter any bugs with this program, please create an issue explaining the problem. Please remember to include as much information as possible in your issue. No one likes vague questions.
+Should you encounter any bugs, please create an issue explaining the problem. Please remember to include as much information as possible in your issue. No one likes vague questions.
 
 Need to contact?
 
