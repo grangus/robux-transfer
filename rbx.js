@@ -108,17 +108,8 @@ module.exports.deleteShirt = (shirt, cookie, proxy) => {
                 rl: true,
               });
 
-            console.log(response.statusCode);
 
             if (response.statusCode == 400) return res("Success!"); //returning success on 400 cuz it means the item cant be deleted
-
-            // if (response.statusCode !== 200)
-            //   return rej({
-            //     data: `Status code was not 200! Status: ${
-            //       response.statusCode
-            //     } Body: ${JSON.stringify(body)}`,
-            //     retry: true,
-            //   });
 
             res(
               `Attempt to delete from inventory resulted in status: ${response.statusCode}`
