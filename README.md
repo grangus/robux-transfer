@@ -41,5 +41,6 @@ Should you encounter any bugs with this program, please create an issue explaini
 
 Need to contact?
 
-Discord: grango#5298
-Telegram: @grangus
+Discord: **grango#5298**
+
+Telegram: **@grangus**
