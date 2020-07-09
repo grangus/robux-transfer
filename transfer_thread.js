@@ -172,6 +172,12 @@ const scanCookies = (chunk, resolve, position, proxy) => {
         );
       }
 
+      if(!body) {
+        if (workerData.debug)
+          console.log(chalk.red(`Body was not sent in response! Status: ${response.statusCode}`));
+        return scanCookies(chunk, resolve, position + 1, proxy);
+      }
+
       if (body.robux !== undefined) {
         if (body.robux >= 5) {
           if (workerData.debug)
